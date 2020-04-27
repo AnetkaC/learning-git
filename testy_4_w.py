@@ -1,3 +1,7 @@
+help(swap)
+
+
+
 import sys
 import logging
 logging.basicConfig(level=logging.DEBUG)
