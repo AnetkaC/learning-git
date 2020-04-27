@@ -1,4 +1,3 @@
-import sys
 from typing import Union
 
 def add(a: int, b: int) -> int:
@@ -30,18 +29,6 @@ result_dispacer = {'1': add,
 if not c in result_dispacer:
     wrong_choice()
 result = result_dispacer[c](a, b)
-
-
-# if c =='1':
-#     result = add(a, b)
-# elif c == '2':
-#     result = deduct(a, b)
-# elif c == '3':
-#     result = multiply(a, b)
-# elif c == '4':
-#     result = division(a, b)
-# else:
-#     wrong_choice()
 
 print(f"Wynik działania to: {result}")
 
